@@ -60,10 +60,11 @@
                 </div>
                 <div id="breadcrumbs-navigation-container">
                 
-                    <?php if ( is_page() and $post and ! is_home() ) { ?>
+                    <?php if ( ! is_front_page() ) { ?>
                     <div class="post-parent">
                         <ul>
                         <li class="first"><a href="<?php echo home_url( '/' ); ?>" title="Home">Home</a></li>
+                        <?php if ( is_page() or is_single() ): ?>
                         <?php
                             $parentPosts = array($post);
                             $parentPostId = $post->post_parent;
@@ -77,6 +78,7 @@
                             <li class="spacer">&raquo;</li>
                             <li><a href="<?php echo get_permalink($parentPost->ID); ?>"><?php echo get_the_title($parentPost->ID); ?></a></li>
                         <?php $parentPostCount++; } ?>
+                        <?php endif; ?>
                         </ul>
                     </div>
                     <?php } else { ?>
