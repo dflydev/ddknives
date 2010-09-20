@@ -1,0 +1,232 @@
+/*
+Offloc theme.
+*/
+
+#site-info { display: none; }
+#site-copyright { float: right; }
+
+#access-footer { float: left; }
+
+#access ul ul {
+	display: none;
+}
+
+#access ul, #access-footer ul {
+	margin: 0px;
+}
+
+#access ul, #access li,
+#access-footer ul, #access-footer li {
+	list-style: none;
+}
+
+#breadcrumbs-navigation-container li,
+#access .menu-item, #access .page_item,
+#access-footer .menu-item, #access-footer .page_item {
+	display: inline-block;
+}
+
+#access .menu-item, #access .page_item {
+	padding: .75em 1.25em .75em 1.25em;
+	margin: .25em -1em 0em .5em;
+}
+
+#access-footer .menu-item, #access-footer .page_item {
+	padding: .25em 1.5em .25em .25em;
+}
+
+#access .current-menu-item, #access .current_page_item {
+	-moz-border-radius-topright:6px;
+	-moz-border-radius-topleft:6px;
+	-webkit-border-top-right-radius:6px;
+	-webkit-border-top-left-radius:6px;
+	border-top-right-radius:6px;
+	border-top-left-radius:6px;
+	border-bottom: 8px;
+}
+
+
+#primary-navigation-container {
+	-moz-border-radius-topright:7px;
+	-moz-border-radius-topleft:7px;
+	-webkit-border-top-right-radius:7px;
+	-webkit-border-top-left-radius:7px;
+	border-top-right-radius:7px;
+	border-top-left-radius:7px;
+	border-width: 1px;
+	border-bottom: 0px;
+}
+
+#breadcrumbs-navigation-container {
+	-moz-border-radius-bottomright:7px;
+	-moz-border-radius-bottomleft:7px;
+	-webkit-border-bottom-right-radius:7px;
+	-webkit-border-bottom-left-radius:7px;
+	border-bottom-right-radius:7px;
+	border-bottom-left-radius:7px;
+	border: 1px;
+    border-top: 0px;
+    padding: .25em;
+    padding-left: 2em;
+}
+
+
+
+#access {
+	font-size: 12px;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+#access a {
+	text-decoration: none;
+}
+
+#footer {
+	font-size: 10px;
+	font-family: sans-serif;
+	border-top: 2px solid black;
+	padding-left: 40px;
+	padding-top: 10px;
+	font-weight: bold;
+	margin-bottom: 50px;
+	margin-top: 20px;
+}
+
+#footer a {
+	text-decoration: none;
+}
+
+#breadcrumbs-navigation-container {
+	font-size: 10px;
+}
+
+#breadcrumbs-navigation-container li.spacer {
+	margin: 0em .175em;
+}
+
+.entry-content h1,
+.entry-content h2,
+.entry-content h3 {
+	margin: .25em 0em;
+}
+
+#reply-title { margin-top: 2em; }
+
+#content-inner {
+	margin: 1em 1.5em .5em 1.5em;
+}
+
+.entry-utility {
+	font-size: 8pt;
+}
+.page-link {
+	font-size: 9pt;
+}
+.entry-meta {
+	font-size: 9pt;
+}
+.more-link {
+	font-size: 9pt;
+	text-decoration: none;
+}
+
+.post-container {
+	margin-bottom: 1em;
+}
+
+.navigation a {
+	text-decoration: none;
+}
+
+#primary-navigation-container,
+#breadcrumbs-navigation-container {
+	border-style: solid;
+}
+
+#site-title {
+	margin-top: .5em;
+}
+#site-description {
+	margin-bottom: 1em;
+}
+
+#sidebar {
+	margin: 1em;
+	border: 1px solid;
+	padding: 1em;
+	padding-top: 0em;
+}
+
+#primary-navigation-container,
+#breadcrumbs-navigation-container {
+	border-color: #8b8b8b;
+}
+
+#masthead h1, #masthead h1 a, #site-description {
+	color: #1a1a1a;
+}
+
+#access a {
+	color: #fdfdfd;
+}
+
+#footer a {
+	color: #1a1a1a;
+}
+#primary-navigation-container {
+	background-color: #c1c1c1;
+	border-bottom: 4px solid #1a1a1a;
+}
+
+#entry-author-info {
+	background-color: #fafafa;
+}
+
+#breadcrumbs-navigation-container {
+	background-color: #aecc52;
+}
+
+#breadcrumbs-navigation-container a {
+	color: #1a1a1a;
+}
+
+#access .current-menu-item, #access .current_page_item {
+	background-color: #1a1a1a;
+}
+
+#breadcrumbs-navigation-container li.spacer {
+	color: #fdfdfd;
+}
+
+#content h1, #content h1 a,
+#content h2, #content h2 a,
+#content h3, #content h3 a,
+#sidebar h1, #sidebar h1 a,
+#sidebar h2, #sidebar h2 a,
+#sidebar h3, #sidebar h3 a {
+	color: #aecc52;
+}
+
+#sidebar {
+	border-color: #e7e6e6;
+	background-color: #fafafa;
+}
+
+a { color: #6fa9d1; }
+a:visited { color: #b7b6c2; }
+a:hover { color: #88c7e4; }
+a:active { color: #5e8598; }
+
+body { color: #1a1a1a; }
+
+#breadcrumbs-navigation-container {
+	background-image:-moz-linear-gradient(270deg,#aecc52,#81b000);
+	background-image:-webkit-gradient(linear,0% 0%,0% 100%,from(#aecc52),to(#81b000));
+}
+
+.post.sticky {
+	background-color: #fafafa;
+	border: solid #e7e6e6;
+	border-width: 1px 0px;
+}
