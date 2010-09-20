@@ -225,6 +225,11 @@ body { color: #1a1a1a; }
 	background-image:-webkit-gradient(linear,0% 0%,0% 100%,from(#aecc52),to(#81b000));
 }
 
+#primary-navigation-container {
+	background-image:-moz-linear-gradient(270deg,#c1c1c1,#949494);
+	background-image:-webkit-gradient(linear,0% 0%,0% 100%,from(#c1c1c1),to(#949494));
+}
+
 .post.sticky {
 	background-color: #fafafa;
 	border: solid #e7e6e6;
