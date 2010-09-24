@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html <?php language_attributes(); ?>>
+<html xmlns="http://www.w3.org/1999/xhtml" <?php language_attributes(); ?>>
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <title><?php
